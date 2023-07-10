@@ -7,9 +7,6 @@ const morgan = require('morgan')
 const { metricsMiddleware } = require('./metrics')
 const cors = require('cors')
 
-
-
-
 const app = express();
 const port = process.env.PORT || serverConfig.port || 7075;
 
